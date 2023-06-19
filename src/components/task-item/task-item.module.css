@@ -1,0 +1,84 @@
+.item {
+  width: 100%;
+  min-height: 2rem;
+  border: 1px solid #0a0a23;
+  background-color: #0a0a23;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleContainer input[type="checkbox"] {
+  width: 1.5rem;
+  margin: 0;
+}
+
+.date {
+  display: inline-block;
+  font-size: 0.8rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 0.3rem;
+  background-color: #3b3b4f;
+}
+
+.titleContainer,
+.date,
+.description,
+.filesContainer,
+.item input[type="file"] {
+  margin-bottom: 1rem;
+}
+
+.expired {
+  background-color: rgb(119, 29, 29);
+}
+
+.done {
+  background-color: rgb(33, 107, 33);
+}
+
+.btnContainer {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: end;
+}
+
+.btn {
+  padding: 5px;
+  font-size: 0.8rem;
+  width: 80px;
+}
+
+.filesTitle {
+  margin-bottom: 5px;
+}
+
+.files {
+  padding-left: 20px;
+  list-style-type: disc;
+  font-size: 0.8rem;
+}
+
+.fileContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.del {
+  font-size: 1rem;
+  color: rgb(119, 29, 29);
+  font-weight: 800;
+}
+
+.del:hover {
+  cursor: pointer;
+}

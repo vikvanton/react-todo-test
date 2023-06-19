@@ -1,0 +1,101 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+fieldset {
+  padding: 10px;
+  background-color: #0a0a23;
+  border: 2px solid #0a0a23;
+  border-radius: 5px;
+}
+
+fieldset,
+input,
+textarea {
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2rem;
+  background-color: #1b1b32;
+  border: 1px solid #1b1b32;
+  color: #ffffff;
+  resize: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #3b3b4f;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #3b3b4f;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: #3b3b4f;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #3b3b4f;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #3030d2;
+}
